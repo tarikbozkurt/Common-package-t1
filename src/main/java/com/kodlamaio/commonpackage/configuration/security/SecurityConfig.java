@@ -1,6 +1,5 @@
 package com.kodlamaio.commonpackage.configuration.security;
 
-
 import com.kodlamaio.commonpackage.utils.security.KeycloakJwtRoleConverter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -49,5 +48,3 @@ public class SecurityConfig {
         return http.build();
     }
 }
-
-

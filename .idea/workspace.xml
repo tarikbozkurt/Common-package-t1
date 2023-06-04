@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6c71e599-fb3e-492e-ab7f-fce89e2ccbca" name="Changes" comment="Added OSSRH">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/configuration/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/configuration/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/utils/security/KeycloackJwtRoleConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/utils/security/KeycloakJwtRoleConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/utils/Roles/Roles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/utils/Roles/Roles.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/tarik/Desktop/rent-a-car-microservice"
+    "last_opened_file_path": "C:/Users/tarik/Desktop/common-package-t1-master"
   }
 }]]></component>
   <component name="RunAnythingCache">
@@ -61,7 +59,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685871983852</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added OSSRH">
+      <created>1685875872057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685875872057</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added OSSRH">
+      <created>1685875903212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685875903212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
