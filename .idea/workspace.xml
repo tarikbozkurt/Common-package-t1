@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c71e599-fb3e-492e-ab7f-fce89e2ccbca" name="Changes" comment="">
+    <list default="true" id="6c71e599-fb3e-492e-ab7f-fce89e2ccbca" name="Changes" comment="Added OSSRH">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/configuration/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/configuration/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/utils/security/KeycloackJwtRoleConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/utils/security/KeycloakJwtRoleConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +37,14 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/tarik/Downloads/Compressed/common-package-t1-main/common-package-t1"
+    "last_opened_file_path": "C:/Users/tarik/Desktop/rent-a-car-microservice"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean deploy -DskipTests" />
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,6 +54,14 @@
       <option name="presentableId" value="Default" />
       <updated>1685871047961</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added OSSRH">
+      <created>1685871983852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685871983852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -59,5 +74,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added OSSRH" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added OSSRH" />
   </component>
 </project>
