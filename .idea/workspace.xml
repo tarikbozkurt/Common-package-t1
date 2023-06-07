@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c71e599-fb3e-492e-ab7f-fce89e2ccbca" name="Changes" comment="configuration">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/configuration/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/configuration/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/utils/mappers/ModelMapperManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/utils/mappers/ModelMapperManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/utils/security/KeycloakJwtRoleConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodlamaio/commonpackage/utils/security/KeycloakJwtRoleConverter.java" afterDir="false" />
-    </list>
+    <list default="true" id="6c71e599-fb3e-492e-ab7f-fce89e2ccbca" name="Changes" comment="configuration v1.1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686158196715</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="configuration v1.1">
+      <created>1686162623922</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686162623922</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +122,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added OSSRH" />
     <MESSAGE value="configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="configuration" />
+    <MESSAGE value="configuration v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="configuration v1.1" />
   </component>
 </project>
