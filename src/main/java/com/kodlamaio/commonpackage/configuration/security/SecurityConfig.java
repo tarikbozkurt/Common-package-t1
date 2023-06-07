@@ -33,10 +33,8 @@ public class SecurityConfig {
         converter.setJwtGrantedAuthoritiesConverter(new KeycloakJwtRoleConverter());
 
         http.cors().and().authorizeHttpRequests()
-                .requestMatchers("/api/filters", "/api/cars/check-car-available/**", "/api/payments/check")
-                .permitAll()
                 .requestMatchers("/api/**")
-                .hasAnyRole("user")
+                .permitAll()
                 .anyRequest()
                 .authenticated()
                 .and()

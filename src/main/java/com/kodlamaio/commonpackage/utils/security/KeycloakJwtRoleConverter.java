@@ -1,5 +1,6 @@
 package com.kodlamaio.commonpackage.utils.security;
 
+import lombok.NonNull;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -19,7 +20,7 @@ public class KeycloakJwtRoleConverter implements Converter<Jwt, Collection<Grant
         return extractRoles(jwt);
     }
 
-    private Collection<GrantedAuthority> extractRoles(Jwt jwt) {
+    private Collection<GrantedAuthority> extractRoles( Jwt jwt) {
         var claims = jwt.getClaims();
         var realmAccess = (Map<String, Object>) claims.getOrDefault("realm_access", Collections.emptyMap());
         var roles = (List<String>) realmAccess.getOrDefault("roles", Collections.emptyList());

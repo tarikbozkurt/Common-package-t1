@@ -2,9 +2,7 @@ package com.kodlamaio.commonpackage;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-// * dfdf
-// ! dfdf
-// ? dfdf
+
 @SpringBootApplication
 public class CommonPackageApplication {
 
