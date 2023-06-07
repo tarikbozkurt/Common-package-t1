@@ -8,6 +8,7 @@ import org.modelmapper.convention.MatchingStrategies;
 public class ModelMapperManager implements ModelMapperService {
     private final ModelMapper mapper;
 
+
     @Override
     public ModelMapper forResponse() {
         mapper.getConfiguration()
